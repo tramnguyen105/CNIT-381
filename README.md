@@ -29,3 +29,7 @@ Called the GitHub REST API from Python to read my repo and create an issue.
 Docker, run by GitHub Actions on every push, that opens a GitHub issue
 through the API when the plan has errors.
 **Repo:** https://github.com/tramnguyen105/ip-plan-check
+
+## Week 8: OSPF by Hand, Then Automated 
+What I did: configured OSPF manually, ran a provided playbook that automated it, 
+and wrote my own playbook to back up the configs. What I learned: how ansible works, how to create an inventory file and yml file, I learned yml syntax as well as how to run an ansible-playbook.
