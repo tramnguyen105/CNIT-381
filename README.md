@@ -34,6 +34,5 @@ through the API when the plan has errors.
 What I did: configured OSPF manually, ran a provided playbook that automated it, 
 and wrote my own playbook to back up the configs. What I learned: how ansible works, how to create an inventory file and yml file, I learned yml syntax as well as how to run an ansible-playbook.
 
-## Week 9: Build a Network and Automate It End to End What I built: a CML topology (2 routers, a 
-switch, and an Ubuntu control node), bootstrapped the devices by hand, then used Ansible to configure 
-loopbacks, EIGRP, a login banner, and to back up all device. What I learned: I learned how to use Ansible inventory files and playbooks to automate network configurations across multiple devices. I also learned how to use different Ansible modules to configure, verify, and back up devices without entering commands manually on each one. This lab helped me understand how automation saves time, reduces configuration errors, and makes managing multiple network devices easier.
+## Week 9: Build a Network and Automate It End to End What I built: a CML topology (2 routers, a switch, and an Ubuntu control node), bootstrapped the devices by hand, then used Ansible to configure loopbacks, EIGRP, a login banner, and to back up all device. 
+What I learned: I learned how to use Ansible inventory files and playbooks to automate network configurations across multiple devices. I also learned how to use different Ansible modules to configure, verify, and back up devices without entering commands manually on each one. This lab helped me understand how automation saves time, reduces configuration errors, and makes managing multiple network devices easier.
